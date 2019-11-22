@@ -2,7 +2,7 @@
 public class Main {
 
 	public static void main(String[] args) {
-		// 0,0,0, 0,0,0, 0,0,0,
+		// 0,0,0, 0,0,0, 0,0,0,     for copy-paste reasons
 		int[] row1 = {0,1,2, 5,9,4, 6,8,0};
 		int[] row2 = {6,0,0, 2,1,7, 0,9,5};
 		int[] row3 = {9,5,4, 6,8,0, 0,0,7};
@@ -21,11 +21,7 @@ public class Main {
 		sud.SolveAll();
 		sud.PrintSolution();
 		
-		//TODO add logic for 'this is the only place in this row/column/box it can go, 
-		//     so it must even if other things can go here too'
-		//TODO shorten checking if it's the only thing that can go there (using lists? if list.size = 1)
-		
-		// 0,0,0,0
+		// 0,0,0,0    for copy-paste reasons
 		int[] row41 = {1,0,0,0};
 		int[] row42 = {0,0,0,4};
 		int[] row43 = {0,0,2,0};
